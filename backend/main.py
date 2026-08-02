@@ -18,7 +18,8 @@ def getstudent(user_id:int=Path(...,description="enter which id student u want t
     return students[user_id]
 
 
-@app.get("/user")
-def getuser(name:str):
+# @app.get("/user")
+# def getuser(name:str):
     
+
 
