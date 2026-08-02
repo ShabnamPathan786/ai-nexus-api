@@ -1,0 +1,64 @@
+# =========================================================================
+# PYTHON & FASTAPI DEPENDENCIES
+# =========================================================================
+# Virtual environments (Never commit these heavy local folders)
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+# Local databases and vector stores
+.chroma/
+*.db
+*.sqlite3
+
+# =========================================================================
+# REACT & TYPESCRIPT (FRONTEND) DEPENDENCIES
+# =========================================================================
+# Third-party packages (Never commit these heavy node packages)
+node_modules/
+jspm_packages/
+
+# Production build outputs
+dist/
+build/
+out/
+
+# TypeScript log files
+*.tsbuildinfo
+
+# Debug logs (NPM, Yarn, Bun, Vite)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# IDE and Editor specific configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# =========================================================================
+# SECURITY & SECRETS (CRITICAL)
+# =========================================================================
+# Local environment files containing secret AI keys and passwords
+.env
+.env.local
+.env.*.local
+*.env
+
+
+# Mac system files
+.DS_Store
